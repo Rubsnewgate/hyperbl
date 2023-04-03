@@ -12,6 +12,20 @@ body {
     margin: 0 auto;
 }
 
-#container h1 {
-    font-size: 20px;
+#cabecera {
+    background: #33a;
+    color: white;
+    margin: 0;
+    padding: 0.5em;
+    display: flex;
+}
+
+#cabecera .tagline {
+    padding: 0 0 1em;
+    font-weight: normal;
+    font-size: 0.6em;
+}
+
+.post {
+    padding: 1em;
 }
