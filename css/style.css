@@ -12,22 +12,44 @@ body {
     margin: 0 auto;
 }
 
-#cabecera {
+#header {
     background: #33a;
     color: white;
     margin: 0;
     padding: 0.5em;
     display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
-#cabecera .tagline {
+#header > img {
+    width: 50px;
+    margin: 1rem;
+}
+
+#header .tagline {
     padding: 0 0 1em;
-    font-weight: normal;
     font-size: 0.6em;
 }
 
 .post {
     padding: 1em;
+}
+
+#footer {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0.5em;
+}
+
+#footer > ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
 }
 
 ul > li {
