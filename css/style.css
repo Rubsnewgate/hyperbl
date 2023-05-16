@@ -38,6 +38,18 @@ body {
     padding: 1em;
 }
 
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+figure > img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5px;
+}
+
 #footer {
     background: #333;
     color: white;
