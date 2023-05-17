@@ -4,6 +4,8 @@ Rubén tiene 24 años y nació en México, cdmx.
 
 Hoy hablaremos de su historia en el desarrollo web.
 
+main uno
+
 Todo comenzo hace un año, al platicar con Dave sobre un anime llamado Sword art online y la tecnología que ahí se aplica
 en los videojuegos. Sin embargo también vemos un gran avance tecnológico en el área medica y en la creación de vida conciente y 
 emocional con el proyecto Alice.
