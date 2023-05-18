@@ -10,6 +10,7 @@ En  este curso aprendí:
 * Los mejores trucos de Fredy Vega (Mi profesor)
 * Este curso es patrocinado por el increíble platzi team
 *Incluye ejemplos para linux, windows y mac
+*Disponible para todas las edades
 
 **Recordatorio **
 
