@@ -8,6 +8,7 @@ En  este curso aprendí:
 * Comprender un flujo de trabajo real en Git y GitHub
 * El uso de buenas prácticas
 * Los mejores trucos de Fredy Vega (Mi profesor)
+* Este curso es patrocinado por el increíble platzi team
 
 **Recordatorio **
 
