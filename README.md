@@ -9,8 +9,8 @@ En  este curso aprendí:
 * El uso de buenas prácticas
 * Los mejores trucos de Fredy Vega (Mi profesor)
 * Este curso es patrocinado por el increíble platzi team
-*Incluye ejemplos para linux, windows y mac
-*Disponible para todas las edades
+* Incluye ejemplos para linux, windows y mac
+* Disponible para todas las edades
 
 **Recordatorio **
 
