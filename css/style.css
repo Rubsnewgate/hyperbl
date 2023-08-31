@@ -69,3 +69,8 @@ figure > img {
 ul > li {
     list-style: none;
 }
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}

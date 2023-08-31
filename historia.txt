@@ -1,17 +1,15 @@
-Esta es la historia de Rubén Jaimes Lara.
+This is the story of Rubén Jaimes Lara
 
-Rubén tiene 24 años y nació en México, cdmx.
+Rubén is 24 years old and was born in Mexico City, Mexico.
 
-Hoy hablaremos de su historia en el desarrollo web.
+Today we will talk about his journey in web development.
 
-experimento uno
+Experiment one.
+Experiment Two.
 
-experimento dos
+Main one.
+Main Two.
 
-main uno
-
-main dos
-
-Todo comenzo hace un año, al platicar con Dave sobre un anime llamado Sword art online y la tecnología que ahí se aplica
-en los videojuegos. Sin embargo también vemos un gran avance tecnológico en el área medica y en la creación de vida conciente y 
-emocional con el proyecto Alice.
+It all began a year ago, when he was discussing an anime called Sword Art Online with Dave, and the technology
+applied there in video games. However, we also see significant technological advancement in the medical field
+and in the creation of conscious and emotional artificial life with the Alice Project.
