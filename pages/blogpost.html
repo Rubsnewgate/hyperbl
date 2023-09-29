@@ -1,89 +1,75 @@
 <!DOCTYPE html>
 <html lang="en"/>
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Hyperblog, the blog specialist in all the news of thech and the geek world."/>
-    <meta name="robots" content="index, follow"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hyperblog, the blog specialist in all the news of thech and the geek world.">
+    <meta name="robots" content="index, follow">
     <title>Hyperblog| Welcome to Hyperblog</title>
-    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mobile.css" media="(max-width: 425px)">
 </head>
 <body>
-    <main id="container">
-        <header id="header">
-            <img class="header-img"
-            src="https://1.bp.blogspot.com/-bpbB2GneOiY/WCen-OBeUkI/AAAAAAAACdU/5Fm9zm_t1wgQu74EVvmuGb5x5N4i-KjlQCLcB/s1600/Percepat%2BGames%2BAndroid%2B-%2BAlmaftuch.in.png"
-            alt="Hyperblog logo."
-            />
-            <h1>Hiperblog <span class="tagline">Your trusted online blog!</span></h1>
-        </header>
+    <header class="header">
+        <img class="header__img"
+        src="https://1.bp.blogspot.com/-bpbB2GneOiY/WCen-OBeUkI/AAAAAAAACdU/5Fm9zm_t1wgQu74EVvmuGb5x5N4i-KjlQCLcB/s1600/Percepat%2BGames%2BAndroid%2B-%2BAlmaftuch.in.png"
+        alt="Hyperblog logo."
+        >
+        <h1 class="header__title">Hiperblog</h1>
+    </header>
 
-        <div class="post">
-            <h2>Is ChatGPT a tool or a competence?</h2>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste facilis consequuntur eius vitae culpa hic sunt tempore quaerat reiciendis corporis?
-            </p>
+    <main>
+        <section class="posts-wrapper">
+            <article class="principal-post post">
+                <h2 class="post__title">Is ChatGPT a tool or a competence?</h2>
 
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsam unde autem iste exercitationem aut nobis molestiae tempora perspiciatis, quasi explicabo deleniti. Odit praesentium obcaecati soluta nam, sit officiis? Impedit, enim nam nobis voluptate dignissimos asperiores ex explicabo, in aliquid quasi amet deleniti! Porro ipsa amet quo ipsum aliquid dolores, cum provident, consequatur laboriosam impedit quia mollitia ullam non quasi vel asperiores illo fugiat ab modi assumenda, facilis repellat aliquam praesentium. Assumenda, asperiores. Debitis amet in dolorum sed iste quo.
-            </p>
+                <div class="post__img">
+                    <img
+                    src="https://images.pexels.com/photos/16037283/pexels-photo-16037283/free-photo-of-escritorio-ordenador-portatil-tecnologia-oficina-en-casa.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="ChatGPT image"
+                    >
+                </div>
 
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis placeat illum explicabo adipisci! Consequuntur quae minima modi nam consectetur at delectus, dignissimos voluptates suscipit error natus molestiae velit itaque. Similique dolorum illum, minima neque iusto illo, vitae architecto exercitationem eveniet sequi consectetur mollitia voluptates iste. Ratione quia debitis aliquam ut autem, praesentium eaque fugit eum recusandae molestias, incidunt tempore laudantium?
-            </p>
+                <div class="post__text">
+                    <h3 class="post__text--subtitle">ChatGPT-3</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsam unde autem iste exercitationem aut nobis molestiae tempora perspiciatis, quasi explicabo deleniti. Odit praesentium obcaecati.
+                    </p>
+                </div>
+            </article>
 
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, eligendi.
-            </p>
+            <article class="secondary-post post">
+                <h2 class="post__title">The best Kraftwerk album: Tour de France</h2>
 
-            <h2>The best Kraftwerk album: Tour de France</h2>
-
-            <figure id="img-container">
+                <figure class="post__img"">
                 <img src="../assets/imgs/tour-france.jpg"
                 alt="krafwerk tour de france"
                 />
-                <figcaption>Kraftwerk | Tour de France</figcaption>
-            </figure>
+                <figcaption class="post__img--legend">Kraftwerk | Tour de France 2003</figcaption>
+                </figure>
 
-            <ul>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Lorem ipsum dolor sit amet.</li>
-            </ul>
+                <div class="post__text">
+                <h3 class="post__text--subtitle">Bests songs</h3>
+                <ul class="post__list">
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Lorem ipsum dolor.</li>
+                </ul>
+                </div>
+            </article>
+        </section>
 
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi et doloribus, corrupti tenetur aperiam quasi, libero quis officia reiciendis labore sequi similique quam pariatur impedit numquam? Fuga doloremque ipsum molestiae, id pariatur atque totam amet.
-            </p>
-
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis reprehenderit, eligendi esse aut recusandae soluta dolor excepturi quas harum iusto ducimus magni deserunt eos illum voluptatum quibusdam inventore atque architecto ratione consectetur beatae. Error, cupiditate.
-            </p>
-
-            <ol>
-                <li>Lorem, ipsum.</li>
-                <li>Lorem, ipsum.</li>
-                <li>Lorem, ipsum.</li>
-                <li>Lorem, ipsum.</li>
-            </ol>
-
-            <h3>
-                Subscribe for the latest weekly news updates!
+        <section class="subscription">
+            <h3 class="subscription__title">
+                <a href="#">Subscribe for the latest weekly news updates!</a>
             </h3>
-        </div>
-
-        <footer id="footer">
-            <p>Hyperblog &copy; 2023</p>
-            <ul>
-                <li>
-                    <a href="#">Contact us.</a>
-                </li>
-                <li>
-                    <a href="#">Terms and conditions.</a>
-                </li>
-            </ul>
-        </footer>
+        </section>
     </main>
+
+    <footer class="footer">
+        <p>Hyperblog &copy; 2023</p>
+        <p>Contact us.</p>
+    </footer>
 </body>
 </html>

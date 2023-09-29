@@ -1,0 +1,22 @@
+.posts-wrapper {
+	padding: 0 20px;
+}
+.post {
+	display: block;
+}
+.post__text {
+	padding: 0;
+}
+
+figure {
+	margin: 0;
+}
+
+.subscription {
+	padding: 0 20px;
+	text-align: center;
+}
+
+.footer {
+	justify-content: space-between;
+}

@@ -1,76 +1,107 @@
+/* General resets */
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
 body {
+    margin: 0;
     font-family: Arial, 'Courier New', Courier, monospace, Helvetica, sans-serif;
     color: #333;
-    text-align: center;
-    background: #333;
 }
 
-#container {
-    width: 70%;
-    padding: 1em;
-    text-align: left;
-    background: white;
-    border: 1px solid #777;
-    margin: 0 auto;
-}
-
-#header {
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
     background: #33a;
     color: white;
-    margin: 0;
-    padding: 0.5em;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+    padding: 10px;
+}
+.header__img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+.header__title {
+    font-size: 3rem;
 }
 
-#header > img {
-    width: 50px;
-    margin: 1rem;
+/* Posts wrapper */
+.posts-wrapper {
+    padding: 0 40px;
 }
 
-#header .tagline {
-    padding: 0 0 1em;
-    font-size: 0.6em;
-}
-
+/* Post */
 .post {
-    padding: 1em;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: repeat(2, 1fr);
 }
-
-.img-container {
+.post__title {
+    grid-area: 1 / 1 / 2 / 3;
+    padding: 21px 0;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.post__text {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px 0;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.5;
 }
-
-figure > img {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 5px;
+.post__text--subtitle {
+    font-size: 3rem;
 }
-
-#footer {
-    background: #333;
-    color: white;
+.post__img {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0;
-    padding: 0.5em;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 30px;
 }
-
-#footer > ul {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
+.post__img img{
+    width: 100%;
+    border-radius: 10px;
 }
-
-ul > li {
+.post__img--legend{
+    font-size: 1.8rem;
+}
+.post__list {
     list-style: none;
+    padding: 0;
 }
 
-ul li a {
+/* Subscribe section */
+.subscription {
+    display: grid;
+    place-content: center;
+    height: 100px;
+    padding: 0 40px;
+    font-size: 2.5rem;
+}
+.subscription__title a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-size: 2rem;
+    background: #333;
+}
+
+.footer__contact-info li a {
     color: #fff;
     text-decoration: none;
 }
